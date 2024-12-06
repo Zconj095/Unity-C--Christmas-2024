@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4812705547720038396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2539189247109921228}
+  - component: {fileID: 5796766223957157294}
+  m_Layer: 0
+  m_Name: Mona Quantum System Orchestrator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2539189247109921228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812705547720038396}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5796766223957157294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812705547720038396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2437d1d60c0d2eb4b8f396f8830e85d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quantumVector: {fileID: 7496074636783589059, guid: b63421b78bdc15440aa0d055c783fa2c, type: 3}
+  fieldGenerator1: {fileID: 8348253276042706062, guid: 5242a2abafec2c74b9890da842694102, type: 3}
+  fieldGenerator2: {fileID: 8348253276042706062, guid: 5242a2abafec2c74b9890da842694102, type: 3}
+  phaseShift: {fileID: 0}
+  phaseEstimation1: {fileID: 5644201159696750153, guid: 4a1af3f7688ddfd42aeec3525bd4a65b, type: 3}
+  phaseEstimation2: {fileID: 5644201159696750153, guid: 4a1af3f7688ddfd42aeec3525bd4a65b, type: 3}
+  hyperstate: {fileID: 3275770223792888307, guid: c4e301c4d9ee16e479ff768847d012f5, type: 3}

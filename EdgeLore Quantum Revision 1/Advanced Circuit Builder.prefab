@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &478587656292973342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 350659996046194353}
+  - component: {fileID: 3567641597279105092}
+  m_Layer: 0
+  m_Name: Advanced Circuit Builder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &350659996046194353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478587656292973342}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 997.83887, y: 196.931, z: 456.11505}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3567641597279105092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478587656292973342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83c528461d327744ebcae7524f53326e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QubitPrefab: {fileID: 2672303886327090433, guid: d638ff96e3a3abc4f95450e46933a66f, type: 3}
+  GatePrefab: {fileID: 8931078215387377052, guid: 40c9a430f0de0ff4c9a6b2c9141a7fcf, type: 3}
+  QubitContainer: {fileID: 1170135933318978626, guid: 5bd719eb4046f9f42a3c68fd3a6edcc4, type: 3}
+  GateContainer: {fileID: 5234706186086224990, guid: c3f3bba76b222394aab242e860a9d50d, type: 3}
+  GateDropdown: {fileID: 0}
+  AddQubitButton: {fileID: 0}
+  AddGateButton: {fileID: 0}
+  UndoButton: {fileID: 0}
+  RedoButton: {fileID: 0}
+  SaveCircuitButton: {fileID: 0}
+  LoadCircuitButton: {fileID: 0}
+  CircuitResultText: {fileID: 0}

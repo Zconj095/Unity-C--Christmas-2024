@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6210634358616783844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8612586430843795830}
+  - component: {fileID: 7309645968883493974}
+  - component: {fileID: 1587096744102464299}
+  - component: {fileID: 1537692631220010413}
+  - component: {fileID: 3728586497129446821}
+  - component: {fileID: 2961647878934250582}
+  m_Layer: 0
+  m_Name: Nano Voxels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8612586430843795830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210634358616783844}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5612.303, y: -7819.205, z: -1975.8208}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7309645968883493974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210634358616783844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f73f62dc2a15aa94e8f3a0f79b212b12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fluctuationIntensity: 0.05
+--- !u!114 &1587096744102464299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210634358616783844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 631ed00a7e3c581468bd23298b445438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridSize: {x: 10, y: 10, z: 10}
+  voxelSize: 0.1
+  layerColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+--- !u!114 &1537692631220010413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210634358616783844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a2d6e527c66044fae0bd9d0e70e9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridSize: {x: 10, y: 10, z: 10}
+  voxelSize: 0.1
+  layerColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  minRefractiveIndex: 1
+  maxRefractiveIndex: 2.5
+--- !u!114 &3728586497129446821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210634358616783844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acff4db3ecd01f246b43ca7e48972988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voxelGrid: {fileID: 0}
+--- !u!114 &2961647878934250582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210634358616783844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee2f5d0ca3e67ce4d873f8373c90aec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Population:
+  - {fileID: 729938850751701303, guid: 45a08228614ea0948998c9e70df786d3, type: 3}
+  - {fileID: 729938850751701303, guid: 45a08228614ea0948998c9e70df786d3, type: 3}
+  - {fileID: 729938850751701303, guid: 45a08228614ea0948998c9e70df786d3, type: 3}
+  - {fileID: 729938850751701303, guid: 45a08228614ea0948998c9e70df786d3, type: 3}
+  - {fileID: 729938850751701303, guid: 45a08228614ea0948998c9e70df786d3, type: 3}
